@@ -3,7 +3,6 @@ import { Coda, Inter } from 'next/font/google';
 import './globals.css';
 import Header from './Common/Header';
 import Footer from './Common/Footer';
-import 'react-slideshow-image/dist/styles.css';
 
 const CodaFont = Coda({
   weight: '400',

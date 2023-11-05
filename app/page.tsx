@@ -1,7 +1,6 @@
 'use client';
 
 import * as React from 'react';
-import { Slide } from 'react-slideshow-image';
 const LIST_IMAGE = [
   '/assets/may1.png',
   '/assets/may2.jpg',
@@ -11,7 +10,7 @@ const LIST_IMAGE = [
   '/assets/may6.jpg',
 ];
 
-export interface HomePageProps {}
+export interface HomePageProps { }
 
 export default function HomePage(props: HomePageProps) {
   return (
